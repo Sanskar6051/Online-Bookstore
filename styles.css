@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('lib.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('lib.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section h1{
+  font-size: 60px;font-weight:700;letter-spacing: 5px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  text-transform: uppercase;
+  margin: 15px;
+}
+
+
+section a{
+    padding: 12px 30px;
+    border-radius: 25px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section .button1{
+    background: #d4af37;
+    color: #000;
+}
+section .button2{
+    background: #d4af37;
+    color: #000;
+}
+.counter{
+    background-color: black;
+      align-items: center;
+      padding: 50px;
+      height: 225px;
+  }
+  .counter .content{
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .content .box{
+      width: 275px;
+      height: 100%;
+      border: 3px solid #d9d9d9;
+      border-radius:50%;
+   
+      /* display: flex; */
+      align-items: center;
+      padding: 20px;
+      justify-content: space space-evenly;
+      color:; #d9d9d9
+      flex-direction: column;
+      
+  }
+  
+  .content .box .icon{
+      font-size: 50px;
+      color: #d9d9d9;
+      padding-bottom: 20px;
+      align-items: center;
+  }
+  .content .box .counter1{
+      font-size: 45px;
+      color: #d9d9d9;
+      font-weight: 500px;
+      font-family: sans-serif;
+      padding-bottom: 20px;
+     
+  }
+  .content .box .text{
+      font-size: 30px;
+      color: #d9d9d9;
+      padding-bottom: 20px;
+  }
+  
+   .Our-mission{
+      height: 85vh;
+      width: 100%;
+      
+    
+  }
+  .Mission-box {
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    transform: translate(35%, 10%);
+    border-radius: 30px;
+   padding: 0px;
+   margin: 0px;
+   box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.35) ;
+   
+  }
+  .Mission-box-Left-div  {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+ 
+  }
+  .Mission-box-Left-div img{
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+    transform: translate(-70px,50px);
+    border-radius: 30px;
+  
+  }
+
+  .Mission-box-Right-div {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    
+  }
+
+ .quotes{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+     font-style: italic;
+     padding-left: 60px;
+ }
+
+ .Ceo-name{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: gold;
+  padding-left: 50px;
+ }
+ .Company-name{
+     padding-left: 60px;
+     color: gray;
+     font-size: 20px;
+ }
+ .black{
+     width: 100%;
+     height: 5vh;
+ }
+
+ .black1{
+     width:100%;
+     height: 50vh;
+     background-color: black;
+    }
+.booknow{
+    width: 75%;
+    height: 25vh;
+    background-color: #f4c430;
+    z-index: 1;
+    transform: translate(200px,120px);
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.bpara{
+   
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+.bparal{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parap{
+    font-size: 20px;
+}
+.booknow-button{
+    float: right;
+    width: 25%;
+    height: 100%;
+}
+a{
+ color: gold;
+font-weight: bolder;
+}
+.booknow-box{
+  
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 30px;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+   top:27%;
+   left:2%
+}
+.booknow-text{
+    font-size: 25px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    margin: 0px;
+}
+.booknow-box:hover{
+   transform: scale(1.1);
+}
+.Our-mission-heading{
+    font-size: 40px;
+   color: black;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   text-align: center;
+   transform: translate(0px,40px);
+}
+.card-heading{
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+    padding-top: 20px;
+    
+}
